@@ -1,0 +1,54 @@
+#Hotel-images {
+  height: 200px;
+  width: 250px;
+}
+#hotel-list {
+  display: grid;
+  grid-row-gap: 6%;
+  margin: 0 0 0 9%;
+}
+#hotel-list-cards-1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  background-color: rgb(132, 136, 139);
+  margin: 2%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#hotel-list-cards-2 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  background-color: rgb(132, 136, 139);
+  margin: 2%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+#hotel-list-cards-3 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  background-color: rgb(132, 136, 139);
+  margin: 2%;
+}
+.list-content {
+  margin-top: 80px;
+  margin-bottom: 180px;
+}
+#map-view {
+  display: none;
+}
+li {
+  list-style: none;
+  padding: 0 3%;
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+figcaption {
+  padding-left: 4%;
+}
