@@ -1,0 +1,17 @@
+#hotel-detail-image {
+  height: 500px;
+  width: 500px;
+}
+#hotel-detail-image {
+  margin: 2% 4% 0 4%;
+}
+figcaption {
+  margin: 0 4% 1% 4%;
+}
+#description {
+  margin: 1% 4% 2% 4%;
+}
+#detail-content {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
