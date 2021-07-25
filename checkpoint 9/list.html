@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>List</title>
+        <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/list.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <div class="main-container"> <!--  main div -->
+<!----------------------------------------------------------------------------------------------------> 
+
+<header class="header">  <!--  header div -->
+    <nav id="nav-bar"> 
+
+               <!-- logo  -->
+       <a href="index.html"> <img src="assests/images/logo.png" id="logo-image" alt="logo" height="200px" width="150px"></a>
+               <!-- logo  -->
+               
+               <!-- login  -->
+               <div class="bs-example">
+                <!-- Button HTML (to Trigger Modal) -->
+                <button class="btn btn-sm btn-light" data-toggle="modal" data-target="#myModal">LOGIN</button>
+            
+               
+               <!-- login  -->
+               
+    </nav>   
+</header>    <!--  header div -->
+
+<!----------------------------------------------------------------------------------------------------> 
+
+        <div class="list-content"> <!--  content div -->
+            
+           <div id="hotel-view"> <!-- view list  -->
+               <ul>
+                <li id="view-1"><a href="#hotel-list" class="btn btn-sm btn-primary">List View</a></li>
+                <li id="view-2"><a href="#map-view" class="btn btn-sm btn-primary">Map View</a></li>
+               </ul>
+           </div> <!-- view list  -->
+
+           <div id="hotel-list">    <!-- Hotel list  -->
+
+            <a style="text-decoration: none; color: black;" href="detail.html"> <div id="hotel-list-cards-1">
+                   <img id="Hotel-images" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel">
+                <figcaption>
+                       <h3>Radisson blu Hotel</h3>
+                       <div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                       </div>
+                       <br>
+                       <div>New Delhi</div>
+                </figcaption>
+            </div></a> 
+             
+            <div id="hotel-list-cards-2">
+                  <img id="Hotel-images" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="The Lalit New Delhi">
+                  <figcaption>
+                    <h3>The Lalit New Delhi</h3>
+                    <div>
+                       <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <br>
+                    <div>New Delhi</div>
+                  </figcaption>
+            </div>
+           
+            <div id="hotel-list-cards-3">
+                <img id="Hotel-images" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="Taj Palace">
+                <figcaption>
+                  <h3>Taj Palace</h3>
+                  <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                  </div>
+                  <br>
+                  <div>New Delhi</div>
+                 </figcaption>
+            </div>
+        
+        </div> <!-- Hotel list  -->   
+               
+            <div id="map-view">    <!-- map  -->  
+                <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="Map Image">
+                <figcaption>
+                     MAP VIEW
+                 </figcaption>
+            </div>                 <!-- map -->  
+
+        </div> <!--  content div -->
+        <br>
+<!---------------------------------------------------------------------------------------------------->
+        
+<div class="footer">   <!--  footer div -->
+
+    <div id="contact">   <!--  contact div -->
+                     <!-- Button trigger modal -->
+<button type="button" class="btn btn-sm btn-info" data-toggle="modal" data-target="#exampleModal">
+    Contact Us
+  </button>
+  
+    </div>   <!--  contact div -->
+
+    <div id="copy-right">  <!--  copy rights div -->
+        &copy; 2020 ROOM SEARCH PVT. LTD.
+    </div>  <!--  copy right div -->
+
+    <div id="socail-media">   <!--  Socail Media div -->
+        <a href="https://www.facebook.com" target="_blank"><img id="socail-media-images" src="assests/images/facebook.png" height="20px" width="22px"></a>
+        <a href="https://www.instagram.com" target="_blank"><img id="socail-media-images" src="assests/images/instagram.png" height="20px" width="22px"></a>
+        <a href="https://www.twitter.com" target="_blank"><img id="socail-media-images" src="assests/images/twitter.png" height="20px" width="22px"></a>
+    </div>   <!--  Socail Media div -->
+
+</div>  <!--  footer div --> 
+
+<!---------------------------------------------------------------------------------------------------->
+ <!-- Modal HTML -->
+ 
+ <div id="myModal" class="modal fade" tabindex="-1">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Please Login</h5>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+           <div id="modal-body1">
+              <div>
+                User Name:
+              </div>
+              <div>
+                  <input type="text" placeholder="Enter user name" required>
+              </div>
+          </div>
+          <div id="modal-body1">
+              <div>
+              Password:
+              </div>
+              <div>
+                  <input type="password" placeholder="Enter password" required>
+              </div>
+          </div>
+          </div>
+          <div class="modal-footer">    
+              <div>                 
+              <a href="index.html" class="btn btn-primary">Sumbit</a>
+          </div>      
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+ <!-- Modal --> 
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get in touch</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div>
+          Thank you for reaching out!!!
+          <br>
+          please enter your email and we will get back to you
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" placeholder="Enter email id" required>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="index.html" class="btn btn-primary">Sumbit</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>  <!--  main div -->
+    </body>
+</html>
