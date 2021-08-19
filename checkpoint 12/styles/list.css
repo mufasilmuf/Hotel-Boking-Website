@@ -1,0 +1,82 @@
+#Hotel-images {
+  height: 200px;
+  width: 250px;
+}
+#hotel-list {
+  display: grid;
+  grid-row-gap: 6%;
+  margin: 0 0 0 9%;
+}
+#hotel-list-cards-1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  background-color: lightgray;
+  margin: 2%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#hotel-list-cards-2 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  background-color: lightgray;
+  margin: 2%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+#hotel-list-cards-3 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  background-color: lightgray;
+  margin: 2%;
+}
+#list-content {
+  margin-top: 80px;
+  margin-bottom: 180px;
+}
+figcaption {
+  padding-left: 4%;
+}
+#hotel-list-cards-1:hover {
+  background-color: rosybrown;
+}
+#hotel-list-cards-2:hover {
+  background-color: rosybrown;
+}
+#hotel-list-cards-3:hover {
+  background-color: rosybrown;
+}
+#map-view {
+  display: none;
+}
+@media only screen and (max-width: 576px) {
+  #hotel-list-cards-1,
+  #hotel-list-cards-2,
+  #hotel-list-cards-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  #hotel-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #Hotel-images {
+    width: 100%;
+  }
+  #map-view {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  #hotel-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #map-view {
+    display: none;
+  }
+}
