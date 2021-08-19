@@ -1,0 +1,170 @@
+#city-image1,
+#city-image2,
+#city-image3,
+#city-image4,
+#city-image5,
+#city-image6,
+#city-image7,
+#city-image8 {
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  box-shadow: 10px 10px 10px grey;
+}
+.search-bar {
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+  height: 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#city-cards-set1,
+#city-cards-set2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 15%;
+}
+#overlay {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-51%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+#cards1,
+#cards2,
+#cards3,
+#cards4,
+#cards5,
+#cards6,
+#cards7,
+#cards8 {
+  padding: 4%;
+  position: relative;
+  width: 50%;
+  visibility: visible;
+}
+#text {
+  color: #f1f1f1;
+}
+#cards1:hover #city-image1 {
+  opacity: 1;
+}
+#cards1:hover #overlay {
+  opacity: 1;
+}
+#cards2:hover #overlay {
+  opacity: 1;
+}
+#cards3:hover #overlay {
+  opacity: 1;
+}
+#cards4:hover #overlay {
+  opacity: 1;
+}
+#cards5:hover #overlay {
+  opacity: 1;
+}
+#cards6:hover #overlay {
+  opacity: 1;
+}
+#cards7:hover #overlay {
+  opacity: 1;
+}
+#cards8:hover #overlay {
+  opacity: 1;
+}
+#index-content {
+  margin-top: 60px;
+  margin-bottom: 120px;
+  background-color: #e0e0e0;
+}
+input {
+  border: 1px solid #ffffff;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+#view-more {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+  #city-cards-set1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  #city-cards-set2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  #view-more {
+    margin-top: 4%;
+    margin-right: 2%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  #city-cards-set1 {
+    display: grid;
+    grid-gap: 15%;
+    margin-top: 4%;
+  }
+  #city-cards-set2 {
+    display: grid;
+    grid-gap: 15%;
+    margin-top: 18%;
+  }
+  #cards1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #cards2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+  #cards3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #cards4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  #cards5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #cards6 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+  #cards7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #cards8 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  #view-more {
+    margin-top: 12%;
+  }
+}
