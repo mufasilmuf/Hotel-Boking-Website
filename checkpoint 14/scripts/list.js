@@ -48,7 +48,7 @@ function find() {
   );
   xhr.setRequestHeader(
     "x-rapidapi-key",
-    "fe40f5b24dmsha63770bea97dccfp1e3198jsne411e12dc88c"
+    "26cc93a231msh0ac0e0cc421947dp1c1df3jsn7ab32902b63f"
   );
   xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
   xhr.send();
